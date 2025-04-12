@@ -1,0 +1,42 @@
+ .day {
+      max-width: 170px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f8f3f3e7;
+      border: 1px solid #909090;
+      border-radius: 8px;
+ }
+
+ .day :nth-child(3n) {
+    color: rgb(130, 107, 180);
+ }
+
+ #ol :nth-last-child(-n + 2) {
+    color: rgba(0, 0, 255, 0.663);
+ }
+
+#li:nth-child(-n + 3) {
+  background-color: rgb(51, 199, 222);
+}
+
+#li:hover {
+     background-color: crimson;
+ }
+
+.day :first-child {
+    color: rgb(150, 8, 150);
+}
+
+.day :nth-child(5) {
+    color: rgb(237, 73, 237);
+}
+
+ .li2:hover {                
+      color: white;
+      background-color: #333;
+    }
+
+ input:focus {
+      border: 2px solid blue;
+      background-color: #e3f2fd;
+    }
